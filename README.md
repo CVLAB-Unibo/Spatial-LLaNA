@@ -28,9 +28,7 @@
   </a>
 </p>
 <p>
-    <p align="center">
-    <b> The extended version of this paper is available on <a href="https://arxiv.org/pdf/2504.13995" target="_blank">Arxiv</a></b>
-</p>
+
 </p>
 </p>
 
