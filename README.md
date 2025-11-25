@@ -32,7 +32,7 @@
 ## 📋 Contents
 - [🔧 Installation](#-installation)
 - [📦 Data Preparation](#-data-preparation)
-- [🧑‍🏫 Inference and Evaluation](#-inference-and-evaluation)
+- [🧑‍🏫 Inference and Evaluation](%E2%80%8D-inference-and-evaluation)
 - [🏋🏼 Training Spatial LLaNA](#-training-spatial-llana)
 - [⚙️ Training weights2space](#️-training-weights2space)
 - [🔗 Citation](#-citation)
