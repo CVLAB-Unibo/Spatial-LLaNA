@@ -1,0 +1,16 @@
+torch==2.2.1
+transformers==4.40.1
+numpy==1.24.1
+accelerate
+sentence-transformers
+sentencepiece
+open3d
+tqdm
+pandas
+wandb
+matplotlib
+pydantic
+gradio
+traitlets
+ipython
+easydict
