@@ -1,0 +1,24 @@
+# 1. Local Data (Crucial: Prevents uploading the dataset)
+# If your symlink points to a directory named 'my_local_full_dataset', add that.
+# If you just want to ignore the 'data' folder and manage it manually:
+# data/
+
+# Checkpoints and Logs (Large files created during training)
+weights2space/ckpts/
+weights2space/logs/
+outputs/
+broken_nerfs_val.txt
+broken_nerfs_plot.txt
+*.err
+*.out
+*.txt
+
+# Standard Python/OS ignores
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# Environment
+.env
