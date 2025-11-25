@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-<h1 align="center"><img src="assets/s_llana_logo.png" align="center" width="5.0%" style="vertical-align: middle">Spatially-aware Weights Tokenization for NeRF-Language Models (NeurIPS&nbsp;2025)</h1> 
+<h1 align="center"><img src="assets/s_llana_logo.png" align="center" width="5.0%" style="vertical-align: middle">&nbsp;Spatially-aware Weights Tokenization <br> for NeRF-Language Models (NeurIPS&nbsp;2025)</h1> 
 
   <p align="center">
     <a href='https://andreamaduzzi.github.io/' target='_blank'>Andrea Amaduzzi </a>&emsp;
