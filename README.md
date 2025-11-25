@@ -37,13 +37,13 @@
 ## 📋 Contents
 - [🔧 Installation](#-installation)
 - [📦 Data Preparation](#-data-preparation)
-- [🧑‍🏫 Inference and Evaluation](#-evaluation)
-- [🏋🏼 Training Spatial-LLaNA](#-training-s-llana)
-- [🏋🏼 Training weights2space](#-training-weights2space)
+- [🧑‍🏫 Inference and Evaluation](#-inference-and-evaluation)
+- [🏋🏼 Training Spatial LLaNA](#-training-spatial-llana)
+- [⚙️ Training weights2space](#️-training-weights2space)
 - [🔗 Citation](#-citation)
 - [📚 Related Work](#-related-work)
 - [👏 Acknowledgements](#-acknowledgements)
-
+- [🛑 Terms of Usage](#-terms-of-usage)
 
 ## 🔧 Installation
 The code provided in this repository has been tested in the following environment:
@@ -88,52 +88,58 @@ To ensure everything runs smoothly, your data folder should look like this:
 
 ```plaintext
 Spatial-LLaNA
-├── data
-│   ├── spatial_llana_dataset
-│   │   ├── train
-│   │   │    ├── texts
-│   │   │    │    ├── conversations_brief.json
-│   │   │    │    ├── conversations_complex.json
-│   │   │    ├── vecs     
-|   |   |    |    ├── <model_id>.npy
-|   |   |    |    ├── ...
-|   |   |    |    ├── <model_id>.npy
-│   │   ├── val
-│   │   │    ├── texts
-│   │   │    │    ├── conversations_brief.json
-│   │   │    │    ├── conversations_complex.json
-│   │   │    ├── vecs     
-|   |   |    |    ├── <model_id>.npy
-|   |   |    |    ├── ...
-|   |   |    |    ├── <model_id>.npy
-│   │   ├── shapenerf_test
-│   │   │    ├── texts
-│   │   │    │    ├── conversations_brief.json
-│   │   │    │    ├── conversations_complex.json
-│   │   │    ├── vecs     
-|   |   |    |    ├── <model_id>.npy
-|   |   |    |    ├── ...
-|   |   |    |    ├── <model_id>.npy
-│   │   ├── objanerf_pointllm_test
-│   │   │    ├── texts
-│   │   │    │    ├── conversations_brief.json
-│   │   │    ├── vecs     
-|   |   |    |    ├── <model_id>.npy
-|   |   |    |    ├── ...
-|   |   |    |    ├── <model_id>.npy
-│   │   ├── objanerf_gpt4point_test
-│   │   │    ├── texts
-│   │   │    │    ├── conversations_brief.json
-│   │   │    ├── vecs     
-|   |   |    |    ├── <model_id>.npy
-|   |   |    |    ├── ...
-|   |   |    |    ├── <model_id>.npy
-|   |   ├── hst_dataset_filtered.json
-|   |   |
-|   ├── spatial_objanerf
-│   │   │    ├── texts
-│   │   │    │    ├── spatial_descriptions.json
-│   │   │    │    ├── spatial_multi_choice_qa.json
+└── data
+    ├── spatial_llana_dataset
+    |   |
+    │   ├── train
+    │   │    ├── texts
+    │   │    │    ├── conversations_brief.json
+    │   │    │    └── conversations_complex.json
+    │   │    └── vecs     
+    |   |         ├── <model_id>.npy
+    |   |         └── ...
+    |   |         └── <model_id>.npy
+    |   |
+    │   ├── val
+    │   │    ├── texts
+    │   │    │    ├── conversations_brief.json
+    │   │    │    └── conversations_complex.json
+    │   │    └── vecs     
+    |   |         ├── <model_id>.npy
+    |   |         └── ...
+    |   |         └── <model_id>.npy
+    |   |
+    │   ├── shapenerf_test
+    │   │    ├── texts
+    │   │    │    ├── conversations_brief.json
+    │   │    │    └── conversations_complex.json
+    │   │    └── vecs     
+    |   |         ├── <model_id>.npy
+    |   |         └── ...
+    |   |         └── <model_id>.npy
+    |   |
+    │   ├── objanerf_pointllm_test
+    │   │    ├── texts
+    │   │    │    └── conversations_brief.json
+    │   │    └── vecs     
+    |   |         ├── <model_id>.npy
+    |   |         └── ...
+    |   |         └── <model_id>.npy
+    |   |
+    │   ├── objanerf_gpt4point_test
+    │   │    ├── texts
+    │   │    │    └── conversations_brief.json
+    │   │    └── vecs     
+    |   |         ├── <model_id>.npy
+    |   │         └── ...
+    │   │         └── <model_id>.npy
+    |   |
+    │   └── hst_dataset_filtered.json
+    |
+    └── spatial_objanerf
+        └── texts
+            ├── spatial_descriptions.json
+            └── spatial_multi_choice_qa.json
 ```
 
 where:
