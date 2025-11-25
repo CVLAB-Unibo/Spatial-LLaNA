@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  <a href="https://openreview.net/pdf/13703abced759aa01a8b08febe8467d9db596fd7.pdf" target='_**blank**'>
-    <img src="https://img.shields.io/badge/Paper-PDF-blue?" style="margin-right: 10px;">
+  <a href="https://openreview.net/pdf/13703abced759aa01a8b08febe8467d9db596fd7.pdf" target='_blank'>
+    <img src="https://img.shields.io/badge/Paper-📖-blue?" style="margin-right: 10px;">
   </a> 
   <a href="https://andreamaduzzi.github.io/spatial-llana/" target='_blank'>
-    <img src="https://img.shields.io/badge/Project-Page-blue" style="margin-right: 10px;">
+    <img src="https://img.shields.io/badge/Project-🚀-blue" style="margin-right: 10px;">
   </a>
   <a href="" target='_blank'>
     <img src="https://visitor-badge.laobi.icu/badge?page_id=CVLAB-Unibo.Spatial-LLaNA&left_color=gray&right_color=blue" style="margin-right: 10px;">
@@ -27,11 +27,6 @@
     <img src="https://img.shields.io/github/stars/CVLAB-Unibo/Spatial-LLaNA?style=social" style="margin-right: 10px;">
   </a>
 </p>
-<p>
-
-</p>
-</p>
-
 
 <!-- contents with emoji -->
 ## 📋 Contents
