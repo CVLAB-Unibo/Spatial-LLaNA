@@ -237,7 +237,7 @@ Don't want to train? No problem! Our trained models are ready on the Huggingface
 * **Spatial-LLaNA-7B**: [andreamaduzzi/Spatial-LLaNA-13B](https://huggingface.co/andreamaduzzi/Spatial-LLaNA-13B)
 
 
-## 🏋🏼 Training of weights2space
+## ⚙️ Training weights2space
 <p align="center">
   <img src="assets/weights2space.png" alt="Model architecture" width="600">
 </p>
@@ -283,6 +283,6 @@ If you find our work helpful, please consider starring this repo 🌟 and cite:
 ## 👏 Acknowledgements
 We acknowledge ISCRA for awarding this project access to the LEONARDO supercomputer, owned by the EuroHPC Joint Undertaking, hosted by [CINECA](https://www.cineca.it/en) (Italy).
 
-## Terms of usage
+## 🛑 Terms of Usage
 By using this service, users are required to agree to the following terms: The service is a research preview intended for non-commercial use
 only. It only provides limited safety measures and may generate offensive content. It must not be used for any illegal, harmful, violent, racist, or sexual purposes.
