@@ -143,7 +143,7 @@ where:
 
 Feel free to download only the data splits you are interested in.
 
-## 🧑‍🏫 Inference and Evaluation of pre-trained model
+## 🧑‍🏫 Inference and Evaluation
 You can evaluate our pre-trained model against the test sets from the paper: ShapeNeRF-Text (captioning, QA), ObjaNeRF-Text (captioning), and Spatial ObjaNeRF (spatial detailed descriptions).
 
 All scripts use the pre-trained [andreamaduzzi/Spatial-LLaNA-13B](https://huggingface.co/andreamaduzzi/Spatial-LLaNA-13B) model by default.
